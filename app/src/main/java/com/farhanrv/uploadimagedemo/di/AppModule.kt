@@ -25,9 +25,7 @@ val apiModule = module {
             .build()
     }
     single {
-//        val gson = GsonBuilder()
-//            .setLenient()
-//            .create()
+        // put server url using ip address because we have to use local API using node.js
         val retrofit = Retrofit.Builder()
 //            .baseUrl("http://192.168.43.159/my/api/store-image-demo/") // wifi redmi note 4
             .baseUrl("http://10.5.17.11/my/api/store-image-demo/") // TODO : input ip address then save to BuildConfig, then restart app, load url from BuildConfig
