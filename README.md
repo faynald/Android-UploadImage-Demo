@@ -6,9 +6,10 @@ This application is a simple thing to upload an image to the REST API server. Th
 - [Jetpack libraries][1] - Encompasses a collection of Android libraries that incorporate best practices and provide backwards compatibility in Android apps.
 - [Material Design Components][2] - Modular and customizable Material Design UI components for Android.
 - [Kotlin Coroutines][3] - For managing background threads with simplified code and reducing needs for callbacks.
-- [Koin][4] - A pragmatic and lightweight dependency injection framework for Kotlin developers.
-- [Retrofit][5] - A type-safe HTTP client for Android and Java.
-- [Glide][6] - An image loading and caching library for Android focused on smooth scrolling
+- [Retrofit][4] - A type-safe HTTP client for Android and Java.
+- [OkHttp][5] - OkHttp perseveres when the network is troublesome: it will silently recover from common connection problems.
+- [Koin][6] - A pragmatic and lightweight dependency injection framework for Kotlin developers.
+- [Glide][7] - An image loading and caching library for Android focused on smooth scrolling
 
 
 ## Usage
@@ -20,6 +21,7 @@ This application is a simple thing to upload an image to the REST API server. Th
 [1]: https://developer.android.com/jetpack/androidx/explorer
 [2]: https://material.io/develop/android
 [3]: https://kotlinlang.org/docs/reference/coroutines-overview.html
-[4]: https://insert-koin.io/
-[5]: https://square.github.io/retrofit/
-[6]: https://github.com/bumptech/glide
+[4]: https://square.github.io/retrofit/
+[5]: https://square.github.io/okhttp/
+[6]: https://insert-koin.io/
+[7]: https://github.com/bumptech/glide
